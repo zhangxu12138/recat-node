@@ -1,0 +1,250 @@
+/* @import '~antd/dist/antd.css'; */
+*{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    background-color: #ddd;
+}
+/*header*/
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width:1200px;
+    margin:0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width:120px;
+}
+.headerwrap a{
+    margin:0 20px;
+    color:white;
+    text-decoration:none
+}
+/*header*/
+
+/*main*/
+.main{
+    width: 1200px;
+    margin:30px auto;
+}
+.content{
+    width:900px;
+    float: left;
+    /* border:2px solid red ; */
+}
+.sider{
+    
+    float: right;
+   
+}
+.sider>div:nth-child(1){
+    margin-bottom: 20px;
+    width:270px;
+    /* float: right; */
+    height: 100px;
+    background-color: white;
+    border-radius: 0 0 3px 3px;
+}
+.sider>div:nth-child(2){
+    margin-bottom: 20px;
+    width:270px;
+    /* float: right; */
+    height: 200px;
+    border-radius: 0 0 3px 3px;
+    background-color: white;
+    
+    
+}
+.sider>div:nth-child(3){
+    margin-bottom: 20px;
+    width:270px;
+    /* float: right; */
+    height: 250px;
+    background-color: white;
+    border-radius: 0 0 3px 3px;
+}
+
+
+.sider2 img{
+    width: auto;
+    height: 60px;
+}
+.sider3 img{
+    width: 150px;
+    margin-left: 15px;
+}
+.sider1{
+    padding-top: 10px;
+}
+.sider1 p:nth-child(1){
+    font-size: 15px;
+    margin-left: 10px;
+   
+    margin-bottom:15px;
+}
+.sider1 p:nth-child(2){
+    font-size:13px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.sider1 button{
+    font-size:14px;
+    margin-left: 10px;
+    color:white;
+    background-color: #5bc0de;
+    padding: 8px;
+    border:none;
+    border-radius: 5px;
+}
+/*main*/
+
+/*home tarBar*/
+.tabBar a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:#80bd01;
+    font-size: 14px;
+    padding: 3px 4px;
+}
+.tabBar{
+    height: 20px;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+.topic-tab.current-tab {
+    background-color: #80bd01;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+.ulTar{
+    height: 30px;
+    padding: 7px;
+}
+.ulTar li{
+    display: inline;
+    padding: 4px 13px;
+  
+    border-left:0.5px solid #ddd;
+    border-right:0.5px solid #ddd;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-radius: 2px;
+    background-color: white;
+    
+}
+.ulTar li a{
+    text-decoration: none;
+}
+/*home main*/
+.cell{
+    height: 30px;
+    /* border:1px solid blueviolet; */
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 1px;
+}
+.cell:hover{
+    background-color: #f6f6f6;
+}
+.cell a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.cell a:hover{
+    text-decoration: underline;
+}
+.cell img{
+    /* padding:10px; */
+    height: auto;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.topiclist-tab {
+    background-color: #e5e5e5;
+    color: #999;
+    padding: 2px 4px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 12px;
+}
+/*home main*/
+
+/*start*/
+.start a{
+    margin:0px;
+}
+.start span{
+    color:#999;
+    font-size: 14px;
+}
+.inner.topic{
+    padding: 10px;
+    border-top: 1px solid #e5e5e5;
+    background: white;
+}
+.topic_content{
+    margin:0 10px;
+    
+}
+.markdown-text p{
+    font-size: 15px;
+    line-height: 1.7em;
+    overflow: auto;
+    margin-top: 15px;
+}
+.markdown-text p a{
+   text-decoration: none;
+   color: #08c;
+}
+/*start*/
+
+/*API*/
+.api a{
+    margin:0px;
+}
+.api span{
+    color:#999;
+    font-size: 14px;
+}
+/*API*/
+
+/*About*/
+.about-friend-links img{
+    width: 250px;
+    height: 60px;
+
+}
+/*About*/
+/*Login*/
+.logindiv{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbutton{
+    text-align: center;
+}
+.loginbutton a{
+    text-decoration: none;
+    width:70px;
+    height: 40px;
+    background-color:#08c;
+    color:white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size:14px
+}
+/*Login*/
